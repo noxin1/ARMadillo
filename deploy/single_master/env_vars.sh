@@ -5,19 +5,19 @@ export  Pi_USERNAME="pi"          # Pi default OS username is "pi"
 export  Pi_PASSWORD="raspberry"   # Pi default OS password is "raspberry"
 
 # Network parameters
-export  MASTER01_HOSTNAME=armadillo-k8s-master01
-export  WORKER01_HOSTNAME=armadillo-k8s-worker01
-export  WORKER02_HOSTNAME=armadillo-k8s-worker02
-export  WORKER03_HOSTNAME=armadillo-k8s-worker03
-export  WORKER04_HOSTNAME=armadillo-k8s-worker04
-export  WORKER05_HOSTNAME=armadillo-k8s-worker05
-export  MASTER01_IP=192.168.1.81
-export  WORKER01_IP=192.168.1.82
-export  WORKER02_IP=192.168.1.83
-export  WORKER03_IP=192.168.1.84
-export  WORKER04_IP=192.168.1.85
-export  WORKER05_IP=192.168.1.86
-export  DNS=192.168.1.1
+export  MASTER01_HOSTNAME=kubemaster
+export  WORKER01_HOSTNAME=kubenode
+export  WORKER02_HOSTNAME=kubenode
+export  WORKER03_HOSTNAME=kubenode3
+export  WORKER04_HOSTNAME=kubenode04
+export  WORKER05_HOSTNAME=kubenode5
+export  MASTER01_IP=10.1.1.105
+export  WORKER01_IP=10.1.1.110
+export  WORKER02_IP=10.1.1.111
+export  WORKER03_IP=10.1.1.112
+export  WORKER04_IP=10.1.1.113
+export  WORKER05_IP=10.1.1.114
+export  DNS=10.1.1.1
 
 # No need to change unless you have less or more workers
 export MASTERS_HOSTS="$MASTER01_HOSTNAME"
