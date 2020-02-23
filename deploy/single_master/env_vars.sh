@@ -5,16 +5,16 @@ export  Pi_USERNAME="pi"          # Pi default OS username is "pi"
 export  Pi_PASSWORD="raspberry"   # Pi default OS password is "raspberry"
 
 # Network parameters
-export  MASTER01_HOSTNAME=kubemaster
-export  WORKER01_HOSTNAME=kubenode1
-export  WORKER02_HOSTNAME=kubenode2
-export  WORKER03_HOSTNAME=kubenode3
-export  WORKER04_HOSTNAME=kubenode4
-export  WORKER05_HOSTNAME=kubenode5
-export  MASTER01_IP=10.1.1.105
-export  WORKER01_IP=10.1.1.110
-export  WORKER02_IP=10.1.1.111
-export  WORKER03_IP=10.1.1.112
+export  MASTER01_HOSTNAME=master
+export  WORKER01_HOSTNAME=node1
+export  WORKER02_HOSTNAME=node2
+export  WORKER03_HOSTNAME=node3
+export  WORKER04_HOSTNAME=node4
+export  WORKER05_HOSTNAME=node5
+export  MASTER01_IP=10.1.1.104
+export  WORKER01_IP=10.1.1.97
+export  WORKER02_IP=10.1.1.127
+export  WORKER03_IP=10.1.1.116
 export  WORKER04_IP=10.1.1.113
 export  WORKER05_IP=10.1.1.114
 export  DNS=10.1.1.1
